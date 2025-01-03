@@ -1,0 +1,15 @@
+:root {
+    --navbar-bg: #efede0;
+  }
+  
+
+  .swiper-button-prev, .swiper-button-next {
+    color: black;
+  }
+  
+  .swiper-button-prev:after, .swiper-button-next:after {
+    background-color: var(--navbar-bg); /* Use the CSS variable */
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 10px 13px;
+  }
